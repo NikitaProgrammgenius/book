@@ -7,7 +7,6 @@
 	overflow-x: hidden;
 	padding-top: 20px;
 }
-
 body {
 	font-family: Ubuntu, sans-serif;
 	font-size: 14.0pt;
@@ -16,7 +15,6 @@ body {
 	left: 15%;
 	right: 15%;
 }
-
 p.Standard {
 	margin-left: 0;
 	margin-right: 0;
@@ -27,8 +25,7 @@ p.Standard {
 	text-align: left;
 	font-size: 13.0pt
 }
-
 @media screen and (max-width: 450px) {
-    .sidenav {position: static;
+	.sidenav {position: static;
 		z-index: 0;}
 }
