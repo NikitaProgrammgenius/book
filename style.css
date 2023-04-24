@@ -1,17 +1,20 @@
 ﻿.pure-menu {
 	width: 15%;
+	min-width: 200px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	padding-top: 20px;
+	padding-top: 3%;
+	
 }
 body {
 	font-family: Ubuntu, sans-serif;
 	font-size: 14.0pt;
 	max-width: 80%;
 	position: absolute;
+	padding-left: 15%;
 	left: 15%;
 	right: 15%;
 }
@@ -25,7 +28,11 @@ p.Standard {
 	text-align: left;
 	font-size: 13.0pt
 }
-@media screen and (max-width: 450px) {
-	.sidenav {position: static;
-		z-index: 0;}
+@media screen and (max-width: 700px) {
+	.pure-menu {
+		position: static;
+	}
+	body {
+		padding-left: 0%;
+	}
 }
